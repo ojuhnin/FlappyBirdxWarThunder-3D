@@ -1,0 +1,6 @@
+{
+  "name": "FlappyFlight.EditModeTests",
+  "references": ["FlappyFlight.Runtime", "FlappyFlight.Editor", "Unity.InputSystem", "Unity.InputSystem.TestFramework"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

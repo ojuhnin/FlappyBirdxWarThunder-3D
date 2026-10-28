@@ -1,0 +1,319 @@
+{
+  "name": "FlappyFlight",
+  "maps": [
+    {
+      "name": "Flight",
+      "id": "9a6b198e-1a45-5521-8cb9-6e3983d9b72c",
+      "actions": [
+        {
+          "name": "Pitch",
+          "type": "Value",
+          "id": "97a7d0ca-9d62-5b80-b9d8-b3a6f17adca3",
+          "expectedControlType": "Axis",
+          "processors": "",
+          "interactions": "",
+          "initialStateCheck": true
+        },
+        {
+          "name": "Roll",
+          "type": "Value",
+          "id": "08743817-c919-5375-8fd8-8caf44168e64",
+          "expectedControlType": "Axis",
+          "processors": "",
+          "interactions": "",
+          "initialStateCheck": true
+        },
+        {
+          "name": "Yaw",
+          "type": "Value",
+          "id": "fe9f7cf1-f3c7-5eb8-82d3-649d99413014",
+          "expectedControlType": "Axis",
+          "processors": "",
+          "interactions": "",
+          "initialStateCheck": true
+        },
+        {
+          "name": "Look",
+          "type": "PassThrough",
+          "id": "9f1ea88f-28b2-519f-89f7-65a31876d4f5",
+          "expectedControlType": "Vector2",
+          "processors": "",
+          "interactions": "",
+          "initialStateCheck": false
+        },
+        {
+          "name": "Faster",
+          "type": "Button",
+          "id": "89242133-3bd4-5b30-ae2d-b61abeb5defa",
+          "expectedControlType": "Button",
+          "processors": "",
+          "interactions": "",
+          "initialStateCheck": false
+        },
+        {
+          "name": "Slower",
+          "type": "Button",
+          "id": "7f8f222f-4a3f-5ed2-91d4-a0a5e6908980",
+          "expectedControlType": "Button",
+          "processors": "",
+          "interactions": "",
+          "initialStateCheck": false
+        },
+        {
+          "name": "FreeLook",
+          "type": "Button",
+          "id": "e5518d58-c94f-5de5-92d1-b34aef45c12a",
+          "expectedControlType": "Button",
+          "processors": "",
+          "interactions": "",
+          "initialStateCheck": false
+        },
+        {
+          "name": "Reset",
+          "type": "Button",
+          "id": "5fa8a278-b8a5-58cc-a836-870c0a1b5943",
+          "expectedControlType": "Button",
+          "processors": "",
+          "interactions": "",
+          "initialStateCheck": false
+        },
+        {
+          "name": "ReleaseCursor",
+          "type": "Button",
+          "id": "6dac3ed4-9c47-5182-ab0c-8b938494c37a",
+          "expectedControlType": "Button",
+          "processors": "",
+          "interactions": "",
+          "initialStateCheck": false
+        },
+        {
+          "name": "CaptureCursor",
+          "type": "Button",
+          "id": "d8ae5229-037c-5fff-8eff-efedca20504a",
+          "expectedControlType": "Button",
+          "processors": "",
+          "interactions": "",
+          "initialStateCheck": false
+        }
+      ],
+      "bindings": [
+        {
+          "name": "Axis",
+          "id": "9167529b-842e-5116-aa4f-6c1aec13d759",
+          "path": "1DAxis",
+          "interactions": "",
+          "processors": "",
+          "groups": "KeyboardMouse",
+          "action": "Pitch",
+          "isComposite": true,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "negative",
+          "id": "4eef8832-7705-506a-804a-d4f8a3f56d90",
+          "path": "<Keyboard>/s",
+          "interactions": "",
+          "processors": "",
+          "groups": "KeyboardMouse",
+          "action": "Pitch",
+          "isComposite": false,
+          "isPartOfComposite": true
+        },
+        {
+          "name": "positive",
+          "id": "e3e31f4a-db79-5e54-91c9-52fdaa06e5e4",
+          "path": "<Keyboard>/w",
+          "interactions": "",
+          "processors": "",
+          "groups": "KeyboardMouse",
+          "action": "Pitch",
+          "isComposite": false,
+          "isPartOfComposite": true
+        },
+        {
+          "name": "Axis",
+          "id": "34e9fbf3-8392-5986-9f25-29e641fe7b23",
+          "path": "1DAxis",
+          "interactions": "",
+          "processors": "",
+          "groups": "KeyboardMouse",
+          "action": "Roll",
+          "isComposite": true,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "negative",
+          "id": "4144fb1e-da71-55cd-8c1d-b0b35b33fc07",
+          "path": "<Keyboard>/a",
+          "interactions": "",
+          "processors": "",
+          "groups": "KeyboardMouse",
+          "action": "Roll",
+          "isComposite": false,
+          "isPartOfComposite": true
+        },
+        {
+          "name": "positive",
+          "id": "f804efe9-7e5e-5b83-a2ca-d498ac78a842",
+          "path": "<Keyboard>/d",
+          "interactions": "",
+          "processors": "",
+          "groups": "KeyboardMouse",
+          "action": "Roll",
+          "isComposite": false,
+          "isPartOfComposite": true
+        },
+        {
+          "name": "Axis",
+          "id": "fd845184-abf4-5e44-a990-627fe00f2992",
+          "path": "1DAxis",
+          "interactions": "",
+          "processors": "",
+          "groups": "KeyboardMouse",
+          "action": "Yaw",
+          "isComposite": true,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "negative",
+          "id": "2f6af178-3590-59bf-b7e2-6569bf141d28",
+          "path": "<Keyboard>/q",
+          "interactions": "",
+          "processors": "",
+          "groups": "KeyboardMouse",
+          "action": "Yaw",
+          "isComposite": false,
+          "isPartOfComposite": true
+        },
+        {
+          "name": "positive",
+          "id": "15d10282-b3c7-501d-ad21-9aab9ff7cb98",
+          "path": "<Keyboard>/e",
+          "interactions": "",
+          "processors": "",
+          "groups": "KeyboardMouse",
+          "action": "Yaw",
+          "isComposite": false,
+          "isPartOfComposite": true
+        },
+        {
+          "name": "",
+          "id": "a8701cd3-5d1f-599b-b99d-0a953d84461b",
+          "path": "<Mouse>/delta",
+          "interactions": "",
+          "processors": "",
+          "groups": "KeyboardMouse",
+          "action": "Look",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "7f0ccecf-c258-52f6-b8a8-311c207ebfc5",
+          "path": "<Keyboard>/leftShift",
+          "interactions": "",
+          "processors": "",
+          "groups": "KeyboardMouse",
+          "action": "Faster",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "bd10011e-e7cb-5567-9d2a-4efdb31228cb",
+          "path": "<Keyboard>/rightShift",
+          "interactions": "",
+          "processors": "",
+          "groups": "KeyboardMouse",
+          "action": "Faster",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "ce5cbccd-b08a-5eaf-b91e-4e6a019777a1",
+          "path": "<Keyboard>/leftCtrl",
+          "interactions": "",
+          "processors": "",
+          "groups": "KeyboardMouse",
+          "action": "Slower",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "fa302014-d61b-572a-8def-8ac95e348939",
+          "path": "<Keyboard>/rightCtrl",
+          "interactions": "",
+          "processors": "",
+          "groups": "KeyboardMouse",
+          "action": "Slower",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "f4726495-2bba-59b9-b745-52a75e23c478",
+          "path": "<Keyboard>/c",
+          "interactions": "",
+          "processors": "",
+          "groups": "KeyboardMouse",
+          "action": "FreeLook",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "6b1bea63-6e88-5296-ae22-611c61d54b8a",
+          "path": "<Keyboard>/r",
+          "interactions": "",
+          "processors": "",
+          "groups": "KeyboardMouse",
+          "action": "Reset",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "2ee8eeeb-586f-55d2-9aaf-ae6f9db49bb1",
+          "path": "<Keyboard>/escape",
+          "interactions": "",
+          "processors": "",
+          "groups": "KeyboardMouse",
+          "action": "ReleaseCursor",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "df0db83f-04e1-5405-936a-c73f0bef1e07",
+          "path": "<Mouse>/leftButton",
+          "interactions": "",
+          "processors": "",
+          "groups": "KeyboardMouse",
+          "action": "CaptureCursor",
+          "isComposite": false,
+          "isPartOfComposite": false
+        }
+      ]
+    }
+  ],
+  "controlSchemes": [
+    {
+      "name": "KeyboardMouse",
+      "bindingGroup": "KeyboardMouse",
+      "devices": [
+        {
+          "devicePath": "<Keyboard>",
+          "isOptional": false,
+          "isOR": false
+        },
+        {
+          "devicePath": "<Mouse>",
+          "isOptional": false,
+          "isOR": false
+        }
+      ]
+    }
+  ]
+}

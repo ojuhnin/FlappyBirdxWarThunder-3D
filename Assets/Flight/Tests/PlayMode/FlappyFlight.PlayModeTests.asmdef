@@ -1,0 +1,5 @@
+{
+  "name": "FlappyFlight.PlayModeTests",
+  "references": ["FlappyFlight.Runtime", "Unity.InputSystem", "Unity.InputSystem.TestFramework"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

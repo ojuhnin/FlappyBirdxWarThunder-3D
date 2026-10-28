@@ -1,0 +1,6 @@
+{
+  "name": "FlappyFlight.Runtime",
+  "rootNamespace": "FlappyFlight",
+  "references": ["Unity.InputSystem"],
+  "autoReferenced": true
+}

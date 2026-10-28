@@ -1,0 +1,188 @@
+{
+  "materials": [
+    {
+      "name": "Passaro_Amarelo",
+      "diffuse_color": [
+        1.0,
+        0.7099999785423279,
+        0.012000000104308128,
+        1.0
+      ],
+      "base_color": [
+        1.0,
+        0.7099999785423279,
+        0.012000000104308128,
+        1.0
+      ],
+      "roughness": 0.7799999713897705,
+      "metallic": 0.0,
+      "node_types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "image_textures": [],
+      "linked_inputs": []
+    },
+    {
+      "name": "Passaro_Bico_Coral",
+      "diffuse_color": [
+        1.0,
+        0.10499999672174454,
+        0.04500000178813934,
+        1.0
+      ],
+      "base_color": [
+        1.0,
+        0.10499999672174454,
+        0.04500000178813934,
+        1.0
+      ],
+      "roughness": 0.7799999713897705,
+      "metallic": 0.0,
+      "node_types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "image_textures": [],
+      "linked_inputs": []
+    },
+    {
+      "name": "Passaro_Bico_Laranja",
+      "diffuse_color": [
+        1.0,
+        0.2199999988079071,
+        0.054999999701976776,
+        1.0
+      ],
+      "base_color": [
+        1.0,
+        0.2199999988079071,
+        0.054999999701976776,
+        1.0
+      ],
+      "roughness": 0.7799999713897705,
+      "metallic": 0.0,
+      "node_types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "image_textures": [],
+      "linked_inputs": []
+    },
+    {
+      "name": "Passaro_Branco_Olhos",
+      "diffuse_color": [
+        1.0,
+        0.9800000190734863,
+        0.9100000262260437,
+        1.0
+      ],
+      "base_color": [
+        1.0,
+        0.9800000190734863,
+        0.9100000262260437,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0,
+      "node_types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "image_textures": [],
+      "linked_inputs": []
+    },
+    {
+      "name": "Passaro_Contorno_Ameixa",
+      "diffuse_color": [
+        0.09200000017881393,
+        0.039000000804662704,
+        0.06499999761581421,
+        1.0
+      ],
+      "base_color": [
+        0.09200000017881393,
+        0.039000000804662704,
+        0.06499999761581421,
+        1.0
+      ],
+      "roughness": 0.7799999713897705,
+      "metallic": 0.0,
+      "node_types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "image_textures": [],
+      "linked_inputs": []
+    },
+    {
+      "name": "Passaro_Ouro",
+      "diffuse_color": [
+        0.9399999976158142,
+        0.4699999988079071,
+        0.017999999225139618,
+        1.0
+      ],
+      "base_color": [
+        0.9399999976158142,
+        0.4699999988079071,
+        0.017999999225139618,
+        1.0
+      ],
+      "roughness": 0.7799999713897705,
+      "metallic": 0.0,
+      "node_types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "image_textures": [],
+      "linked_inputs": []
+    },
+    {
+      "name": "Passaro_Pena_Creme",
+      "diffuse_color": [
+        1.0,
+        0.9200000166893005,
+        0.5600000023841858,
+        1.0
+      ],
+      "base_color": [
+        1.0,
+        0.9200000166893005,
+        0.5600000023841858,
+        1.0
+      ],
+      "roughness": 0.7799999713897705,
+      "metallic": 0.0,
+      "node_types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "image_textures": [],
+      "linked_inputs": []
+    },
+    {
+      "name": "Passaro_Pena_Creme_Sombra",
+      "diffuse_color": [
+        0.9800000190734863,
+        0.7300000190734863,
+        0.20000000298023224,
+        1.0
+      ],
+      "base_color": [
+        0.9800000190734863,
+        0.7300000190734863,
+        0.20000000298023224,
+        1.0
+      ],
+      "roughness": 0.7799999713897705,
+      "metallic": 0.0,
+      "node_types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "image_textures": [],
+      "linked_inputs": []
+    }
+  ]
+}
